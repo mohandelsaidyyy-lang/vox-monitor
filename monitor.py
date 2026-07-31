@@ -1,7 +1,8 @@
+import os
 import requests
 
-BOT_TOKEN = ""
-CHAT_ID = ""
+BOT_TOKEN = os.environ["BOT_TOKEN"]
+CHAT_ID = os.environ["CHAT_ID"]
 
 URL = "https://egy.voxcinemas.com/showtimes?c=city-centre-almaza&m=spider-man-brand-new-day&d=20260805"
 
